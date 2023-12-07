@@ -1,0 +1,108 @@
+/*primary colors*/
+/*neutral colors*/
+header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 1em;
+  background-color: hsl(10, 79%, 65%);
+  border-radius: 10px;
+  color: hsl(33, 100%, 98%);
+}
+header .balance {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+header .balance p {
+  font-weight: 400;
+  text-transform: capitalize;
+}
+header img {
+  max-width: 60px;
+}
+
+main {
+  display: flex;
+  flex-direction: column;
+  gap: 1em;
+  padding: 1em;
+  border-radius: 10px;
+  color: hsl(28, 10%, 53%);
+  background-color: hsl(33, 100%, 98%);
+}
+main h2 {
+  color: hsl(25, 47%, 15%);
+}
+main article {
+  min-height: 250px;
+  display: flex;
+  gap: 0.2em;
+  align-items: flex-end;
+  justify-content: center;
+  padding-bottom: 2em;
+  border-bottom: 1px solid hsl(28, 10%, 53%);
+}
+main .track {
+  max-width: 55px;
+  min-width: 55px;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  gap: 0.5em;
+}
+main .track span:first-child {
+  max-height: 40px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 0.2em;
+  border-radius: 5px;
+  background-color: hsl(25, 47%, 15%);
+  color: hsl(33, 100%, 98%);
+  width: 20%;
+  min-width: 60px;
+  position: relative;
+  bottom: 10px;
+  display: none;
+}
+main .track .ammountDay {
+  max-width: 40px;
+  min-width: 40px;
+  border-radius: 5px;
+  background-color: hsl(10, 79%, 65%);
+}
+main .track .ammountDay:hover {
+  opacity: 0.8;
+  cursor: pointer;
+}
+main .track span:last-child {
+  font-size: 0.8em;
+  font-weight: 400;
+  color: hsl(28, 10%, 53%);
+}
+main footer {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+main footer .total {
+  display: flex;
+  flex-direction: column;
+  gap: 0.5em;
+}
+main footer .total h3 {
+  font-size: 2em;
+  font-weight: 700;
+  color: hsl(25, 47%, 15%);
+}
+main footer .economy {
+  display: flex;
+  flex-direction: column;
+}
+main footer .economy span {
+  font-weight: 700;
+  color: hsl(25, 47%, 15%);
+}
+
+/*# sourceMappingURL=App.css.map */
